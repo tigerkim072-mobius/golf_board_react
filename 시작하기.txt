@@ -1,0 +1,71 @@
+
+npm create vite@latest
+
+create-vite v9.3.3
+
+│
+◇  Project name:
+│  vite_golf_board
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript + React Compiler
+│
+◇  Which linter to use?
+│  ESLint
+│
+◇  Install with npm and start now?
+│  Yes
+
+
+
+-------------------------
+firebase
+
+https://console.firebase.google.com/?hl=ko&_gl=1*gu6cnw*_up*MQ..*_ga*MzY4NTI0NTQ0LjE3OTM0ODM3ODk.*_ga_CW55HF8NVT*czE3OTM0ODM3ODkkbzEkZzAkdDE3OTM0ODM3ODkkajYwJGwwJGgw
+
+◇ 콘솔로 이동
+carrot
+https://console.firebase.google.com/project/carrot-39f7f/firestore/databases/-default-/data/~2Fcourts~2Flegacy-gangdonghyu?hl=ko
+
+
+
+강동휴 : 1*8
+1구장 : 2* 8
+
+
+
+----------------------------
+git hub
+
+…or create a new repository on the command line
+echo "# golf_board" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+
+
+사용자 지정
+git config --global user.email "tigerkim072@gmail.com"
+git config --global user.name "tigerkim072-mobius"
+
+
+github settings > collaborator > 이메일 코드 발송 > 인증
+
+git remote add origin https://github.com/tigerkim072-mobius/golf_board.git
+
+* push 거부될때
+control /name Microsoft.CredentialManager 
+> github 관련된거 삭제
+
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/tigerkim072-mobius/golf_board.git
+git branch -M main
+
