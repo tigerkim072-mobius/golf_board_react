@@ -28,7 +28,7 @@
   color: #842029;
   font-size: 15px;
 }
-
+/* 
 .form-field {
   display: grid;
   gap: 6px;
@@ -117,3 +117,212 @@
     font-size: 30px;
   }
 }
+
+.golf-app {
+  min-height: 100vh;
+  color: #212529;
+}
+
+.app-navbar {
+  min-height: 58px;
+}
+
+.app-navbar .navbar-brand {
+  font-size: 20px;
+}
+
+.app-navbar .nav-link {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.app-content {
+  padding: 0 8px 32px;
+}
+
+.add-player-row {
+  display: flex;
+  align-items: end;
+  gap: 8px;
+  max-width: 900px;
+  margin: 16px 0 8px;
+}
+
+.add-player-row .form-field {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.add-player-button {
+  margin-bottom: 0;
+}
+
+.scoreboard-table {
+  min-width: 980px;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.scoreboard-table thead th {
+  white-space: nowrap;
+}
+
+.score-control {
+  width: 44px;
+  padding: 4px !important;
+}
+
+.score-control .btn {
+  min-width: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.empty-scoreboard {
+  padding: 20px !important;
+  color: #6c757d;
+}
+
+.players-page {
+  max-width: 1440px;
+  padding-top: 8px;
+}
+
+.player-add-card {
+  margin: 16px 0 24px;
+  padding: 16px;
+  border: 1px solid #d3d3d3;
+  border-radius: 6px;
+}
+
+.player-add-card h2 {
+  margin: 0 0 8px;
+  color: #212529;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.player-registration-form {
+  display: grid;
+  grid-template-columns:
+    minmax(220px, 2.5fr) minmax(100px, 1fr) minmax(100px, 1fr)
+    minmax(180px, 1.5fr);
+  align-items: end;
+  gap: 12px;
+  margin: 0;
+}
+
+.player-registration-form .form-field {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.player-registration-form > button {
+  min-height: 38px;
+  white-space: nowrap;
+}
+
+.player-list-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 12px;
+}
+
+.player-list-heading h2 {
+  margin: 0;
+  color: #212529;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.player-list-heading > span {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.player-table {
+  min-width: 760px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.player-table thead th {
+  white-space: nowrap;
+}
+
+.player-table td:first-child {
+  min-width: 260px;
+}
+
+.player-edit-input {
+  min-width: 200px;
+}
+
+.player-number-input {
+  min-width: 64px;
+  max-width: 80px;
+  text-align: center;
+}
+
+.player-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.registered-players-title {
+  margin: 0 0 12px;
+  color: #212529;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.registered-player-list {
+  max-width: 560px;
+}
+
+@media (max-width: 600px) {
+  .app-navbar .navbar-brand {
+    margin-right: 8px;
+    font-size: 16px;
+  }
+
+  .app-navbar .navbar-text {
+    display: none;
+  }
+
+  .scoreboard-page h1,
+  .players-page h1 {
+    font-size: 32px;
+  }
+
+  .add-player-row,
+  .player-registration-form {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .player-registration-form {
+    display: flex;
+  }
+
+  .player-list-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .add-player-button,
+  .player-registration-form > button {
+    width: 100%;
+  }
+
+  .scoreboard-actions {
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+} */

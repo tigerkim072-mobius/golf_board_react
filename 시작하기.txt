@@ -69,3 +69,8 @@ git push -u origin main
 git remote add origin https://github.com/tigerkim072-mobius/golf_board.git
 git branch -M main
 
+
+
+
+---------------------------------------------
+npm install react-router-dom@6
